@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curriculum Vitae de Paola Paniagua Arroyo - Full Stack Software Developer con experiencia en Java Spring Boot, SQL y JasperReports." />
+  <meta name="keywords" content="Paola Paniagua, Software Engineer, Resume, Full Stack Developer, Java, Spring Boot, Costa Rica" />
+  <title>Paola Paniagua Arroyo — Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- html2pdf for PDF export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- ─── TOP BAR ─────────────────────────────────────── -->
+  <div class="topbar no-print">
+    <div class="topbar-inner">
+
+      <div class="lang-toggle">
+        <button class="lang-btn active" id="btn-es" onclick="setLang('es')">🇨🇷 ES</button>
+        <button class="lang-btn" id="btn-en" onclick="setLang('en')">🇺🇸 EN</button>
+      </div>
+
+      <div class="download-btns">
+        <button class="dl-btn pdf" onclick="downloadPDF()">
+          <span class="dl-icon">⬇</span>
+          <span data-es="Descargar PDF" data-en="Download PDF">Descargar PDF</span>
+        </button>
+        <button class="dl-btn txt" onclick="downloadTXT()">
+          <span class="dl-icon">📝</span>
+          <span data-es="Descargar TXT" data-en="Download TXT">Descargar TXT</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ─── RESUME CONTENT ───────────────────────────────── -->
+  <main id="resume">
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-accent"></div>
+      <div class="hero-body">
+        <div class="hero-text">
+          <p class="hero-label" data-es="Ingeniería en Software" data-en="Software Engineering">Ingeniería en Software</p>
+          <h1 class="hero-name">Paola<br>Paniagua<br>Arroyo</h1>
+          <p class="hero-title" data-es="Full Stack Software Developer" data-en="Full Stack Software Developer">Full Stack Software Developer</p>
+        </div>
+        <div class="hero-contact">
+          <a href="tel:+50662666090" class="contact-item">
+            <span class="ci-icon">📞</span>
+            <span>+(506) 62666090</span>
+          </a>
+          <a href="mailto:panipao0@gmail.com" class="contact-item">
+            <span class="ci-icon">✉</span>
+            <span>panipao0@gmail.com</span>
+          </a>
+          <div class="contact-item">
+            <span class="ci-icon">📍</span>
+            <span>Costa Rica</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SUMMARY -->
+    <section class="section summary-section">
+      <p class="summary" data-es="Graduada en Ingeniería en Software con experiencia profesional en logística y desarrollo de software. Actualmente trabajando como Desarrolladora Full Stack con experiencia en Java Spring Boot, SQL y desarrollo de reportes con JasperReports. Detallista, analítica y con experiencia en ambientes corporativos internacionales."
+         data-en="Bachelor's graduate in Software Engineering with professional experience in logistics and software development. Currently working as a Full Stack Software Developer with expertise in Java Spring Boot, SQL, and report development using JasperReports. Detail-oriented, analytical, and experienced in international corporate environments.">
+        Graduada en Ingeniería en Software con experiencia profesional en logística y desarrollo de software. Actualmente trabajando como Desarrolladora Full Stack con experiencia en Java Spring Boot, SQL y desarrollo de reportes con JasperReports. Detallista, analítica y con experiencia en ambientes corporativos internacionales.
+      </p>
+    </section>
+
+    <!-- TWO COLUMN AREA -->
+    <div class="two-col">
+
+      <!-- LEFT -->
+      <aside class="col-left">
+
+        <!-- EDUCATION -->
+        <section class="section">
+          <h2 class="section-title" data-es="Educación" data-en="Education">Educación</h2>
+
+          <div class="edu-item">
+            <span class="edu-years">2019 – 2025</span>
+            <h3 class="edu-school" data-es="Universidad Técnica Nacional (UTN)" data-en="Universidad Técnica Nacional (UTN)">Universidad Técnica Nacional (UTN)</h3>
+            <p class="edu-degree" data-es="Bachillerato en Ingeniería en Software" data-en="Bachelor's Degree in Software Engineering">Bachillerato en Ingeniería en Software</p>
+          </div>
+
+          <div class="edu-item">
+            <span class="edu-years">2014 – 2017</span>
+            <h3 class="edu-school" data-es="CTP Invu las Cañas" data-en="CTP Invu las Cañas">CTP Invu las Cañas</h3>
+            <p class="edu-degree" data-es="Bach. en Educación General Básica, Gestión en Servicio al Cliente" data-en="Bach. in General Basic Education, Customer Service Management">Bach. en Educación General Básica, Gestión en Servicio al Cliente</p>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section">
+          <h2 class="section-title" data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+          <ul class="skill-list">
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>SQL</li>
+            <li data-es="Desarrollo Backend" data-en="Backend Development">Desarrollo Backend</li>
+            <li>REST APIs</li>
+            <li>Jira</li>
+            <li>JasperReports</li>
+            <li>Git</li>
+            <li data-es="Desarrollo Frontend" data-en="Frontend Development">Desarrollo Frontend</li>
+            <li data-es="Bases de Datos Relacionales" data-en="Relational Databases">Bases de Datos Relacionales</li>
+            <li data-es="Resolución de Problemas" data-en="Problem Solving">Resolución de Problemas</li>
+            <li data-es="Pensamiento Analítico" data-en="Analytical Thinking">Pensamiento Analítico</li>
+            <li data-es="Trabajo en Equipo" data-en="Team Collaboration">Trabajo en Equipo</li>
+            <li data-es="Gestión del Tiempo" data-en="Task &amp; Time Management">Gestión del Tiempo</li>
+          </ul>
+        </section>
+
+        <!-- LANGUAGES -->
+        <section class="section">
+          <h2 class="section-title" data-es="Idiomas" data-en="Languages">Idiomas</h2>
+          <div class="lang-item">
+            <span class="lang-name" data-es="Español" data-en="Spanish">Español</span>
+            <span class="lang-level" data-es="Nativo" data-en="Native">Nativo</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name" data-es="Inglés" data-en="English">Inglés</span>
+            <span class="lang-level">B2 (Upper-Intermediate)</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:75%"></div></div>
+          </div>
+        </section>
+
+      </aside>
+
+      <!-- RIGHT -->
+      <article class="col-right">
+
+        <section class="section">
+          <h2 class="section-title" data-es="Experiencia Profesional" data-en="Professional Experience">Experiencia Profesional</h2>
+
+          <!-- ACAMSYS -->
+          <div class="exp-item">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role" data-es="Full Stack Software Developer" data-en="Full Stack Software Developer">Full Stack Software Developer</h3>
+                <p class="exp-company">ACAMSYS</p>
+              </div>
+              <span class="exp-period" data-es="Dic 2022 – Presente" data-en="Dec 2022 – Present">Dic 2022 – Presente</span>
+            </div>
+            <ul class="exp-list">
+              <li data-es="Desarrollo y mantenimiento de aplicaciones web backend y frontend usando Java Spring Boot."
+                  data-en="Develop and maintain backend and frontend web applications using Java Spring Boot.">
+                Desarrollo y mantenimiento de aplicaciones web backend y frontend usando Java Spring Boot.
+              </li>
+              <li data-es="Corrección de errores y mejora del rendimiento del sistema."
+                  data-en="Fix bugs and improve system performance.">
+                Corrección de errores y mejora del rendimiento del sistema.
+              </li>
+              <li data-es="Desarrollo y optimización de procedimientos almacenados SQL para reportes."
+                  data-en="Develop and optimize SQL stored procedures for reports.">
+                Desarrollo y optimización de procedimientos almacenados SQL para reportes.
+              </li>
+              <li data-es="Creación y mantenimiento de reportes usando JasperReports."
+                  data-en="Create and maintain reports using JasperReports.">
+                Creación y mantenimiento de reportes usando JasperReports.
+              </li>
+              <li data-es="Gestión y seguimiento de tareas con Jira."
+                  data-en="Manage and track tasks using Jira.">
+                Gestión y seguimiento de tareas con Jira.
+              </li>
+              <li data-es="Colaboración en trabajo en equipo." data-en="Collaborate in teamwork.">
+                Colaboración en trabajo en equipo.
+              </li>
+            </ul>
+          </div>
+
+          <!-- DHL -->
+          <div class="exp-item">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role" data-es="Empleada de Back Office" data-en="Back Office Employee">Empleada de Back Office</h3>
+                <p class="exp-company">DHL</p>
+              </div>
+              <span class="exp-period" data-es="Mar 2021 – Dic 2022" data-en="Mar 2021 – Dec 2022">Mar 2021 – Dic 2022</span>
+            </div>
+          </div>
+
+          <!-- Kuehne+Nagel -->
+          <div class="exp-item">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role" data-es="Empleada de Back Office" data-en="Back Office Employee">Empleada de Back Office</h3>
+                <p class="exp-company">Kuehne+Nagel</p>
+              </div>
+              <span class="exp-period" data-es="Jun 2018 – Ene 2020" data-en="Jun 2018 – Jan 2020">Jun 2018 – Ene 2020</span>
+            </div>
+          </div>
+
+        </section>
+
+      </article>
+
+    </div><!-- /.two-col -->
+
+    <footer class="cv-footer no-print">
+      <p data-es="Paola Paniagua Arroyo · Software Developer · Costa Rica" data-en="Paola Paniagua Arroyo · Software Developer · Costa Rica">
+        Paola Paniagua Arroyo · Software Developer · Costa Rica
+      </p>
+    </footer>
+
+  </main><!-- /#resume -->
+
+  <script src="script.js"></script>
+</body>
+</html>
