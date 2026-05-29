@@ -385,6 +385,16 @@ ul { list-style: none; }
   line-height: 1.4;
 }
 
+.exp-achievements li {
+  font-size: .86rem;
+  color: #333;
+}
+.exp-achievements li::before {
+  content: '✦';
+  font-size: .75rem;
+  top: .15rem;
+}
+
 /* ─── FOOTER ───────────────────────────────────────── */
 .cv-footer {
   background: var(--ink);

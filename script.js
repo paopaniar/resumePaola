@@ -137,20 +137,30 @@ EXPERIENCIA PROFESIONAL
 
 Full Stack Software Developer
 ACAMSYS  |  Dic 2022 – Presente
-  › Desarrollo y mantenimiento de aplicaciones web backend y
-    frontend usando Java Spring Boot.
-  › Corrección de errores y mejora del rendimiento del sistema.
-  › Desarrollo y optimización de procedimientos almacenados SQL
-    para reportes.
-  › Creación y mantenimiento de reportes usando JasperReports.
-  › Gestión y seguimiento de tareas con Jira.
-  › Colaboración en trabajo en equipo.
+  › Entregué y evolucioné módulos full stack con Java Spring Boot,
+    habilitando flujos operativos críticos para el negocio.
+  › Reduje fallas recurrentes y mejoré la estabilidad del sistema
+    mediante corrección proactiva de errores y optimización de rendimiento.
+  › Optimicé procedimientos almacenados SQL para reportes, acelerando
+    la disponibilidad de datos para decisiones operativas.
+  › Estandaricé reportes con JasperReports usados por equipos de
+    operaciones y gestión, mejorando consistencia y trazabilidad.
+  › Mejoré visibilidad y cumplimiento de entregas al gestionar el
+    ciclo de trabajo en Jira con equipos multidisciplinarios.
 
 Empleada de Back Office
 DHL  |  Mar 2021 – Dic 2022
+  › Gestioné procesos de back office en logística internacional con
+    alta precisión en entornos de alto volumen.
+  › Resolví incidencias operativas y de documentación a tiempo,
+    apoyando continuidad del servicio al cliente.
 
 Empleada de Back Office
 Kuehne+Nagel  |  Jun 2018 – Ene 2020
+  › Coordiné trámites y seguimiento de embarques en cadena de suministro
+    global, manteniendo calidad y cumplimiento normativo.
+  › Fortalecí la comunicación entre áreas operativas y clientes,
+    reduciendo retrabajos en gestión documental.
 
 ═══════════════════════════════════════════════════════════
 `.trim();
@@ -208,19 +218,30 @@ PROFESSIONAL EXPERIENCE
 
 Full Stack Software Developer
 ACAMSYS  |  Dec 2022 – Present
-  › Develop and maintain backend and frontend web applications
-    using Java Spring Boot.
-  › Fix bugs and improve system performance.
-  › Develop and optimize SQL stored procedures for reports.
-  › Create and maintain reports using JasperReports.
-  › Manage and track tasks using Jira.
-  › Collaborate in teamwork.
+  › Delivered and evolved full-stack modules with Java Spring Boot,
+    enabling critical operational workflows for the business.
+  › Reduced recurring defects and improved system stability through
+    proactive bug fixes and performance tuning.
+  › Optimized SQL stored procedures for reporting, accelerating data
+    availability for operational decision-making.
+  › Standardized JasperReports used by operations and management teams,
+    improving information consistency and traceability.
+  › Improved delivery visibility and on-time completion by managing
+    work lifecycles in Jira with cross-functional teams.
 
 Back Office Employee
 DHL  |  Mar 2021 – Dec 2022
+  › Managed international logistics back-office processes with high
+    accuracy in high-volume environments.
+  › Resolved operational and documentation issues on time, supporting
+    customer service continuity.
 
 Back Office Employee
 Kuehne+Nagel  |  Jun 2018 – Jan 2020
+  › Coordinated shipment processing and tracking in a global supply
+    chain while maintaining quality and compliance standards.
+  › Strengthened communication between operations and clients, reducing
+    rework in document management.
 
 ═══════════════════════════════════════════════════════════
 `.trim();
